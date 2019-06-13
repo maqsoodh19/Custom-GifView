@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
         easyGifView = findViewById(R.id.gifView);
         easyGifView.setGifFromResource(R.drawable.cycle_gif);
     }
